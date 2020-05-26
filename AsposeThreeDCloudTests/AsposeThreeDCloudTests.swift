@@ -2,8 +2,7 @@
 //  AsposeThreeDCloudTests.swift
 //  AsposeThreeDCloudTests
 //
-//  Created by leo luo on 2019/10/24.
-//  Copyright © 2020年 AsposeCloud. All rights reserved.
+//  Copyright © 2020 AsposeCloud. All rights reserved.
 //
 
 import XCTest
