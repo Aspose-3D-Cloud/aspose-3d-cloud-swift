@@ -1,6 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '12.0'
 
+# If you are using CocoaPods version higher than 1.8.4, you may get error like:
+# trunk Repo update failed... trunk URL couldn't be downloaded: ...
+# Then, please open next line to solve this issue:
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'AsposeThreeDCloud' do
 # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
