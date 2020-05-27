@@ -15,7 +15,7 @@
 - Address nodes by object addressing path or remove nodes with attached light or camera.
 - Remove 3D objects from a scene.
 
-## Enhancements in Version 20.5
+## Enhancements in Version 20.5.1
 
 - Support convert more file formats(HTML/VRML...).
 - Triangulate part of the scene(Specified by OAP) and save the scene to different file 
@@ -42,11 +42,11 @@ Please check the [GitHub Repository](https://github.com/aspose-3d-cloud/aspose-3
 
 Please, add the following cocoapods to your project.
 
-You want to add pod `'Aspose3DCloud', '~> 20.5'` similar to the following to your Podfile:
+You want to add pod `'Aspose3DCloud', '~> 20.5.1'` similar to the following to your Podfile:
 
 ```console
 target 'MyApp' do
-  pod 'Aspose3DCloud', '~> 20.5'
+  pod 'Aspose3DCloud', '~> 20.5.1'
 end
 ```
 
