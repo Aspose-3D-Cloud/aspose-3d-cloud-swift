@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		679882F047838463A56C7DF1 /* Pods_Aspose3DCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1027D484EF838DEA3D78C165 /* Pods_Aspose3DCloudTests.framework */; };
+		6B31D769247CEE7900CD9038 /* Aspose3DCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B31D75F247CEE7800CD9038 /* Aspose3DCloud.framework */; };
+		6B31D76E247CEE7900CD9038 /* Aspose3DCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31D76D247CEE7900CD9038 /* Aspose3DCloudTests.swift */; };
+		6B31D770247CEE7900CD9038 /* Aspose3DCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B31D762247CEE7800CD9038 /* Aspose3DCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF0B6A1247E4140004581A0 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66A247E4140004581A0 /* CodableHelper.swift */; };
+		6BF0B6A2247E4141004581A0 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66B247E4140004581A0 /* JSONEncodableEncoding.swift */; };
+		6BF0B6A3247E4141004581A0 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66C247E4140004581A0 /* JSONEncodingHelper.swift */; };
+		6BF0B6A4247E4141004581A0 /* AuthAspose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66D247E4140004581A0 /* AuthAspose.swift */; };
+		6BF0B6A5247E4141004581A0 /* HttpStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66E247E4140004581A0 /* HttpStatusCode.swift */; };
+		6BF0B6A6247E4141004581A0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B66F247E4140004581A0 /* Configuration.swift */; };
+		6BF0B6A7247E4141004581A0 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B671247E4140004581A0 /* APIHelper.swift */; };
+		6BF0B6A8247E4141004581A0 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B672247E4140004581A0 /* AlamofireImplementations.swift */; };
+		6BF0B6A9247E4141004581A0 /* ThreeDCloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B674247E4140004581A0 /* ThreeDCloudAPI.swift */; };
+		6BF0B6AA247E4141004581A0 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B675247E4140004581A0 /* APIs.swift */; };
+		6BF0B6AB247E4141004581A0 /* StorageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B677247E4140004581A0 /* StorageFile.swift */; };
+		6BF0B6AC247E4141004581A0 /* StorageExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B678247E4140004581A0 /* StorageExist.swift */; };
+		6BF0B6AD247E4141004581A0 /* FilesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B679247E4140004581A0 /* FilesList.swift */; };
+		6BF0B6AE247E4141004581A0 /* PdfRenderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67A247E4140004581A0 /* PdfRenderMode.swift */; };
+		6BF0B6AF247E4141004581A0 /* FilesUploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67B247E4140004581A0 /* FilesUploadResult.swift */; };
+		6BF0B6B0247E4141004581A0 /* ColladaSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67C247E4140004581A0 /* ColladaSaveOption.swift */; };
+		6BF0B6B1247E4141004581A0 /* FileVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67D247E4140004581A0 /* FileVersion.swift */; };
+		6BF0B6B2247E4141004581A0 /* FBXSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67E247E4140004581A0 /* FBXSaveOption.swift */; };
+		6BF0B6B3247E4141004581A0 /* Cylinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B67F247E4140004581A0 /* Cylinder.swift */; };
+		6BF0B6B4247E4141004581A0 /* FileVersions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B680247E4140004581A0 /* FileVersions.swift */; };
+		6BF0B6B5247E4141004581A0 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B681247E4140004581A0 /* Entity.swift */; };
+		6BF0B6B6247E4141004581A0 /* U3DSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B682247E4140004581A0 /* U3DSaveOption.swift */; };
+		6BF0B6B7247E4141004581A0 /* HTMLSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B683247E4140004581A0 /* HTMLSaveOption.swift */; };
+		6BF0B6B8247E4141004581A0 /* Discreet3DSSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B684247E4140004581A0 /* Discreet3DSSaveOption.swift */; };
+		6BF0B6B9247E4141004581A0 /* ObjectExist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B685247E4140004581A0 /* ObjectExist.swift */; };
+		6BF0B6BA247E4141004581A0 /* SaveFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B686247E4140004581A0 /* SaveFormat.swift */; };
+		6BF0B6BB247E4141004581A0 /* STLSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B687247E4140004581A0 /* STLSaveOption.swift */; };
+		6BF0B6BC247E4141004581A0 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B688247E4140004581A0 /* Sphere.swift */; };
+		6BF0B6BD247E4141004581A0 /* Torus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B689247E4140004581A0 /* Torus.swift */; };
+		6BF0B6BE247E4141004581A0 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68A247E4140004581A0 /* Box.swift */; };
+		6BF0B6BF247E4141004581A0 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68B247E4140004581A0 /* Transform.swift */; };
+		6BF0B6C0247E4141004581A0 /* AccessTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68C247E4140004581A0 /* AccessTokenResponse.swift */; };
+		6BF0B6C1247E4141004581A0 /* PdfLightingScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68D247E4140004581A0 /* PdfLightingScheme.swift */; };
+		6BF0B6C2247E4141004581A0 /* GLTFSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68E247E4140004581A0 /* GLTFSaveOption.swift */; };
+		6BF0B6C3247E4141004581A0 /* ErrorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B68F247E4140004581A0 /* ErrorInfo.swift */; };
+		6BF0B6C4247E4141004581A0 /* RvmSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B690247E4140004581A0 /* RvmSaveOption.swift */; };
+		6BF0B6C5247E4141004581A0 /* ErrorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B691247E4140004581A0 /* ErrorDetails.swift */; };
+		6BF0B6C6247E4141004581A0 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B692247E4140004581A0 /* Plane.swift */; };
+		6BF0B6C7247E4141004581A0 /* SaveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B693247E4140004581A0 /* SaveOptions.swift */; };
+		6BF0B6C8247E4141004581A0 /* PdfSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B694247E4140004581A0 /* PdfSaveOption.swift */; };
+		6BF0B6C9247E4141004581A0 /* AMFSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B695247E4140004581A0 /* AMFSaveOption.swift */; };
+		6BF0B6CA247E4141004581A0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B696247E4140004581A0 /* ModelData.swift */; };
+		6BF0B6CB247E4141004581A0 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B697247E4140004581A0 /* Vector3.swift */; };
+		6BF0B6CC247E4141004581A0 /* DracoSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B698247E4140004581A0 /* DracoSaveOption.swift */; };
+		6BF0B6CD247E4141004581A0 /* ObjSaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B699247E4140004581A0 /* ObjSaveOption.swift */; };
+		6BF0B6CE247E4141004581A0 /* PlySaveOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69A247E4140004581A0 /* PlySaveOption.swift */; };
+		6BF0B6CF247E4141004581A0 /* FileContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69B247E4140004581A0 /* FileContentType.swift */; };
+		6BF0B6D0247E4141004581A0 /* DiscUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69C247E4140004581A0 /* DiscUsage.swift */; };
+		6BF0B6D1247E4141004581A0 /* ColladaTransformStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69D247E4140004581A0 /* ColladaTransformStyle.swift */; };
+		6BF0B6D2247E4141004581A0 /* DracoCompressionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69E247E4140004581A0 /* DracoCompressionLevel.swift */; };
+		6BF0B6D3247E4141004581A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B69F247E4140004581A0 /* Extensions.swift */; };
+		6BF0B6D4247E4141004581A0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6A0247E4140004581A0 /* Models.swift */; };
+		6BF0B6DF247E41B4004581A0 /* oaptest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6D6247E41B4004581A0 /* oaptest.pdf */; };
+		6BF0B6E0247E41B4004581A0 /* oaptest.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6D7247E41B4004581A0 /* oaptest.fbx */; };
+		6BF0B6E1247E41B4004581A0 /* triangulate.3ds in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6D8247E41B4004581A0 /* triangulate.3ds */; };
+		6BF0B6E2247E41B4004581A0 /* parttest.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6D9247E41B4004581A0 /* parttest.fbx */; };
+		6BF0B6E3247E41B4004581A0 /* export.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6DA247E41B4004581A0 /* export.pdf */; };
+		6BF0B6E4247E41B4004581A0 /* extracttest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6DB247E41B4004581A0 /* extracttest.pdf */; };
+		6BF0B6E5247E41B4004581A0 /* threeD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6DC247E41B4004581A0 /* threeD.pdf */; };
+		6BF0B6E6247E41B4004581A0 /* src.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6DD247E41B4004581A0 /* src.pdf */; };
+		6BF0B6E7247E41B4004581A0 /* Aspose.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0B6DE247E41B4004581A0 /* Aspose.pdf */; };
+		6BF0B6ED247E4298004581A0 /* FileApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6E8247E4297004581A0 /* FileApiTests.swift */; };
+		6BF0B6EE247E4298004581A0 /* ThreeDCloudAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6E9247E4297004581A0 /* ThreeDCloudAPITests.swift */; };
+		6BF0B6EF247E4298004581A0 /* OAuthApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6EA247E4297004581A0 /* OAuthApiTests.swift */; };
+		6BF0B6F0247E4298004581A0 /* FolderApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6EB247E4297004581A0 /* FolderApiTests.swift */; };
+		6BF0B6F1247E4298004581A0 /* StorageApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0B6EC247E4298004581A0 /* StorageApiTests.swift */; };
+		7000EA0EFEA9666D8E00B094 /* Pods_Aspose3DCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2891F46CF40DB26A8865601A /* Pods_Aspose3DCloud.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B31D76A247CEE7900CD9038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B31D756247CEE7800CD9038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B31D75E247CEE7800CD9038;
+			remoteInfo = Aspose3DCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1027D484EF838DEA3D78C165 /* Pods_Aspose3DCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aspose3DCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F8C0121C5BC285EC4A3E5C /* Pods-Aspose3DCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspose3DCloud.release.xcconfig"; path = "Target Support Files/Pods-Aspose3DCloud/Pods-Aspose3DCloud.release.xcconfig"; sourceTree = "<group>"; };
+		2891F46CF40DB26A8865601A /* Pods_Aspose3DCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aspose3DCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31D75F247CEE7800CD9038 /* Aspose3DCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspose3DCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31D762247CEE7800CD9038 /* Aspose3DCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aspose3DCloud.h; sourceTree = "<group>"; };
+		6B31D763247CEE7800CD9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B31D768247CEE7900CD9038 /* Aspose3DCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aspose3DCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31D76D247CEE7900CD9038 /* Aspose3DCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aspose3DCloudTests.swift; sourceTree = "<group>"; };
+		6B31D76F247CEE7900CD9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF0B66A247E4140004581A0 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		6BF0B66B247E4140004581A0 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		6BF0B66C247E4140004581A0 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		6BF0B66D247E4140004581A0 /* AuthAspose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAspose.swift; sourceTree = "<group>"; };
+		6BF0B66E247E4140004581A0 /* HttpStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpStatusCode.swift; sourceTree = "<group>"; };
+		6BF0B66F247E4140004581A0 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		6BF0B671247E4140004581A0 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		6BF0B672247E4140004581A0 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		6BF0B674247E4140004581A0 /* ThreeDCloudAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeDCloudAPI.swift; sourceTree = "<group>"; };
+		6BF0B675247E4140004581A0 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		6BF0B677247E4140004581A0 /* StorageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageFile.swift; sourceTree = "<group>"; };
+		6BF0B678247E4140004581A0 /* StorageExist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageExist.swift; sourceTree = "<group>"; };
+		6BF0B679247E4140004581A0 /* FilesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesList.swift; sourceTree = "<group>"; };
+		6BF0B67A247E4140004581A0 /* PdfRenderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfRenderMode.swift; sourceTree = "<group>"; };
+		6BF0B67B247E4140004581A0 /* FilesUploadResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesUploadResult.swift; sourceTree = "<group>"; };
+		6BF0B67C247E4140004581A0 /* ColladaSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColladaSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B67D247E4140004581A0 /* FileVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileVersion.swift; sourceTree = "<group>"; };
+		6BF0B67E247E4140004581A0 /* FBXSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBXSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B67F247E4140004581A0 /* Cylinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cylinder.swift; sourceTree = "<group>"; };
+		6BF0B680247E4140004581A0 /* FileVersions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileVersions.swift; sourceTree = "<group>"; };
+		6BF0B681247E4140004581A0 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		6BF0B682247E4140004581A0 /* U3DSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = U3DSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B683247E4140004581A0 /* HTMLSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B684247E4140004581A0 /* Discreet3DSSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discreet3DSSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B685247E4140004581A0 /* ObjectExist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectExist.swift; sourceTree = "<group>"; };
+		6BF0B686247E4140004581A0 /* SaveFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFormat.swift; sourceTree = "<group>"; };
+		6BF0B687247E4140004581A0 /* STLSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STLSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B688247E4140004581A0 /* Sphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		6BF0B689247E4140004581A0 /* Torus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Torus.swift; sourceTree = "<group>"; };
+		6BF0B68A247E4140004581A0 /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		6BF0B68B247E4140004581A0 /* Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		6BF0B68C247E4140004581A0 /* AccessTokenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenResponse.swift; sourceTree = "<group>"; };
+		6BF0B68D247E4140004581A0 /* PdfLightingScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfLightingScheme.swift; sourceTree = "<group>"; };
+		6BF0B68E247E4140004581A0 /* GLTFSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLTFSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B68F247E4140004581A0 /* ErrorInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorInfo.swift; sourceTree = "<group>"; };
+		6BF0B690247E4140004581A0 /* RvmSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RvmSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B691247E4140004581A0 /* ErrorDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDetails.swift; sourceTree = "<group>"; };
+		6BF0B692247E4140004581A0 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		6BF0B693247E4140004581A0 /* SaveOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveOptions.swift; sourceTree = "<group>"; };
+		6BF0B694247E4140004581A0 /* PdfSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B695247E4140004581A0 /* AMFSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMFSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B696247E4140004581A0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6BF0B697247E4140004581A0 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		6BF0B698247E4140004581A0 /* DracoSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DracoSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B699247E4140004581A0 /* ObjSaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjSaveOption.swift; sourceTree = "<group>"; };
+		6BF0B69A247E4140004581A0 /* PlySaveOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlySaveOption.swift; sourceTree = "<group>"; };
+		6BF0B69B247E4140004581A0 /* FileContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileContentType.swift; sourceTree = "<group>"; };
+		6BF0B69C247E4140004581A0 /* DiscUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscUsage.swift; sourceTree = "<group>"; };
+		6BF0B69D247E4140004581A0 /* ColladaTransformStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColladaTransformStyle.swift; sourceTree = "<group>"; };
+		6BF0B69E247E4140004581A0 /* DracoCompressionLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DracoCompressionLevel.swift; sourceTree = "<group>"; };
+		6BF0B69F247E4140004581A0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6BF0B6A0247E4140004581A0 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6BF0B6D6247E41B4004581A0 /* oaptest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = oaptest.pdf; sourceTree = "<group>"; };
+		6BF0B6D7247E41B4004581A0 /* oaptest.fbx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oaptest.fbx; sourceTree = "<group>"; };
+		6BF0B6D8247E41B4004581A0 /* triangulate.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; path = triangulate.3ds; sourceTree = "<group>"; };
+		6BF0B6D9247E41B4004581A0 /* parttest.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = parttest.fbx; sourceTree = "<group>"; };
+		6BF0B6DA247E41B4004581A0 /* export.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = export.pdf; sourceTree = "<group>"; };
+		6BF0B6DB247E41B4004581A0 /* extracttest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = extracttest.pdf; sourceTree = "<group>"; };
+		6BF0B6DC247E41B4004581A0 /* threeD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = threeD.pdf; sourceTree = "<group>"; };
+		6BF0B6DD247E41B4004581A0 /* src.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = src.pdf; sourceTree = "<group>"; };
+		6BF0B6DE247E41B4004581A0 /* Aspose.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Aspose.pdf; sourceTree = "<group>"; };
+		6BF0B6E8247E4297004581A0 /* FileApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileApiTests.swift; sourceTree = "<group>"; };
+		6BF0B6E9247E4297004581A0 /* ThreeDCloudAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeDCloudAPITests.swift; sourceTree = "<group>"; };
+		6BF0B6EA247E4297004581A0 /* OAuthApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthApiTests.swift; sourceTree = "<group>"; };
+		6BF0B6EB247E4297004581A0 /* FolderApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderApiTests.swift; sourceTree = "<group>"; };
+		6BF0B6EC247E4298004581A0 /* StorageApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageApiTests.swift; sourceTree = "<group>"; };
+		9BD872D01E6C5EF4D86C7478 /* Pods-Aspose3DCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspose3DCloudTests.debug.xcconfig"; path = "Target Support Files/Pods-Aspose3DCloudTests/Pods-Aspose3DCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2418AA089BB4A9D407625AC /* Pods-Aspose3DCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspose3DCloud.debug.xcconfig"; path = "Target Support Files/Pods-Aspose3DCloud/Pods-Aspose3DCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		EE100167902227E9E5EF5FB8 /* Pods-Aspose3DCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspose3DCloudTests.release.xcconfig"; path = "Target Support Files/Pods-Aspose3DCloudTests/Pods-Aspose3DCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B31D75C247CEE7800CD9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7000EA0EFEA9666D8E00B094 /* Pods_Aspose3DCloud.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B31D765247CEE7900CD9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31D769247CEE7900CD9038 /* Aspose3DCloud.framework in Frameworks */,
+				679882F047838463A56C7DF1 /* Pods_Aspose3DCloudTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C42A315D031F9067434D0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2891F46CF40DB26A8865601A /* Pods_Aspose3DCloud.framework */,
+				1027D484EF838DEA3D78C165 /* Pods_Aspose3DCloudTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B31D755247CEE7800CD9038 = {
+			isa = PBXGroup;
+			children = (
+				6BF0B6D5247E41B4004581A0 /* TestData */,
+				6B31D761247CEE7800CD9038 /* Aspose3DCloud */,
+				6B31D76C247CEE7900CD9038 /* Aspose3DCloudTests */,
+				6B31D760247CEE7800CD9038 /* Products */,
+				B1654FB21F4235CF2FB8032D /* Pods */,
+				40C42A315D031F9067434D0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B31D760247CEE7800CD9038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B31D75F247CEE7800CD9038 /* Aspose3DCloud.framework */,
+				6B31D768247CEE7900CD9038 /* Aspose3DCloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B31D761247CEE7800CD9038 /* Aspose3DCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B669247E4140004581A0 /* pal */,
+				6BF0B670247E4140004581A0 /* Swaggers */,
+				6B31D762247CEE7800CD9038 /* Aspose3DCloud.h */,
+				6B31D763247CEE7800CD9038 /* Info.plist */,
+			);
+			path = Aspose3DCloud;
+			sourceTree = "<group>";
+		};
+		6B31D76C247CEE7900CD9038 /* Aspose3DCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B6E8247E4297004581A0 /* FileApiTests.swift */,
+				6BF0B6EB247E4297004581A0 /* FolderApiTests.swift */,
+				6BF0B6EA247E4297004581A0 /* OAuthApiTests.swift */,
+				6BF0B6EC247E4298004581A0 /* StorageApiTests.swift */,
+				6BF0B6E9247E4297004581A0 /* ThreeDCloudAPITests.swift */,
+				6B31D76D247CEE7900CD9038 /* Aspose3DCloudTests.swift */,
+				6B31D76F247CEE7900CD9038 /* Info.plist */,
+			);
+			path = Aspose3DCloudTests;
+			sourceTree = "<group>";
+		};
+		6BF0B669247E4140004581A0 /* pal */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B66A247E4140004581A0 /* CodableHelper.swift */,
+				6BF0B66B247E4140004581A0 /* JSONEncodableEncoding.swift */,
+				6BF0B66C247E4140004581A0 /* JSONEncodingHelper.swift */,
+				6BF0B66D247E4140004581A0 /* AuthAspose.swift */,
+				6BF0B66E247E4140004581A0 /* HttpStatusCode.swift */,
+				6BF0B66F247E4140004581A0 /* Configuration.swift */,
+			);
+			path = pal;
+			sourceTree = "<group>";
+		};
+		6BF0B670247E4140004581A0 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B671247E4140004581A0 /* APIHelper.swift */,
+				6BF0B672247E4140004581A0 /* AlamofireImplementations.swift */,
+				6BF0B673247E4140004581A0 /* APIs */,
+				6BF0B675247E4140004581A0 /* APIs.swift */,
+				6BF0B676247E4140004581A0 /* Models */,
+				6BF0B69F247E4140004581A0 /* Extensions.swift */,
+				6BF0B6A0247E4140004581A0 /* Models.swift */,
+			);
+			path = Swaggers;
+			sourceTree = "<group>";
+		};
+		6BF0B673247E4140004581A0 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B674247E4140004581A0 /* ThreeDCloudAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		6BF0B676247E4140004581A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B677247E4140004581A0 /* StorageFile.swift */,
+				6BF0B678247E4140004581A0 /* StorageExist.swift */,
+				6BF0B679247E4140004581A0 /* FilesList.swift */,
+				6BF0B67A247E4140004581A0 /* PdfRenderMode.swift */,
+				6BF0B67B247E4140004581A0 /* FilesUploadResult.swift */,
+				6BF0B67C247E4140004581A0 /* ColladaSaveOption.swift */,
+				6BF0B67D247E4140004581A0 /* FileVersion.swift */,
+				6BF0B67E247E4140004581A0 /* FBXSaveOption.swift */,
+				6BF0B67F247E4140004581A0 /* Cylinder.swift */,
+				6BF0B680247E4140004581A0 /* FileVersions.swift */,
+				6BF0B681247E4140004581A0 /* Entity.swift */,
+				6BF0B682247E4140004581A0 /* U3DSaveOption.swift */,
+				6BF0B683247E4140004581A0 /* HTMLSaveOption.swift */,
+				6BF0B684247E4140004581A0 /* Discreet3DSSaveOption.swift */,
+				6BF0B685247E4140004581A0 /* ObjectExist.swift */,
+				6BF0B686247E4140004581A0 /* SaveFormat.swift */,
+				6BF0B687247E4140004581A0 /* STLSaveOption.swift */,
+				6BF0B688247E4140004581A0 /* Sphere.swift */,
+				6BF0B689247E4140004581A0 /* Torus.swift */,
+				6BF0B68A247E4140004581A0 /* Box.swift */,
+				6BF0B68B247E4140004581A0 /* Transform.swift */,
+				6BF0B68C247E4140004581A0 /* AccessTokenResponse.swift */,
+				6BF0B68D247E4140004581A0 /* PdfLightingScheme.swift */,
+				6BF0B68E247E4140004581A0 /* GLTFSaveOption.swift */,
+				6BF0B68F247E4140004581A0 /* ErrorInfo.swift */,
+				6BF0B690247E4140004581A0 /* RvmSaveOption.swift */,
+				6BF0B691247E4140004581A0 /* ErrorDetails.swift */,
+				6BF0B692247E4140004581A0 /* Plane.swift */,
+				6BF0B693247E4140004581A0 /* SaveOptions.swift */,
+				6BF0B694247E4140004581A0 /* PdfSaveOption.swift */,
+				6BF0B695247E4140004581A0 /* AMFSaveOption.swift */,
+				6BF0B696247E4140004581A0 /* ModelData.swift */,
+				6BF0B697247E4140004581A0 /* Vector3.swift */,
+				6BF0B698247E4140004581A0 /* DracoSaveOption.swift */,
+				6BF0B699247E4140004581A0 /* ObjSaveOption.swift */,
+				6BF0B69A247E4140004581A0 /* PlySaveOption.swift */,
+				6BF0B69B247E4140004581A0 /* FileContentType.swift */,
+				6BF0B69C247E4140004581A0 /* DiscUsage.swift */,
+				6BF0B69D247E4140004581A0 /* ColladaTransformStyle.swift */,
+				6BF0B69E247E4140004581A0 /* DracoCompressionLevel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BF0B6D5247E41B4004581A0 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0B6D6247E41B4004581A0 /* oaptest.pdf */,
+				6BF0B6D7247E41B4004581A0 /* oaptest.fbx */,
+				6BF0B6D8247E41B4004581A0 /* triangulate.3ds */,
+				6BF0B6D9247E41B4004581A0 /* parttest.fbx */,
+				6BF0B6DA247E41B4004581A0 /* export.pdf */,
+				6BF0B6DB247E41B4004581A0 /* extracttest.pdf */,
+				6BF0B6DC247E41B4004581A0 /* threeD.pdf */,
+				6BF0B6DD247E41B4004581A0 /* src.pdf */,
+				6BF0B6DE247E41B4004581A0 /* Aspose.pdf */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		B1654FB21F4235CF2FB8032D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2418AA089BB4A9D407625AC /* Pods-Aspose3DCloud.debug.xcconfig */,
+				24F8C0121C5BC285EC4A3E5C /* Pods-Aspose3DCloud.release.xcconfig */,
+				9BD872D01E6C5EF4D86C7478 /* Pods-Aspose3DCloudTests.debug.xcconfig */,
+				EE100167902227E9E5EF5FB8 /* Pods-Aspose3DCloudTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B31D75A247CEE7800CD9038 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31D770247CEE7900CD9038 /* Aspose3DCloud.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B31D75E247CEE7800CD9038 /* Aspose3DCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B31D773247CEE7900CD9038 /* Build configuration list for PBXNativeTarget "Aspose3DCloud" */;
+			buildPhases = (
+				4B4E1FC0795E687B19E0F7C3 /* [CP] Check Pods Manifest.lock */,
+				6B31D75A247CEE7800CD9038 /* Headers */,
+				6B31D75B247CEE7800CD9038 /* Sources */,
+				6B31D75C247CEE7800CD9038 /* Frameworks */,
+				6B31D75D247CEE7800CD9038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspose3DCloud;
+			productName = Aspose3DCloud;
+			productReference = 6B31D75F247CEE7800CD9038 /* Aspose3DCloud.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B31D767247CEE7900CD9038 /* Aspose3DCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B31D776247CEE7900CD9038 /* Build configuration list for PBXNativeTarget "Aspose3DCloudTests" */;
+			buildPhases = (
+				BDA85FBA913AAA5D15875A93 /* [CP] Check Pods Manifest.lock */,
+				6B31D764247CEE7900CD9038 /* Sources */,
+				6B31D765247CEE7900CD9038 /* Frameworks */,
+				6B31D766247CEE7900CD9038 /* Resources */,
+				DDE69BC2E8B7C23B861E6673 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B31D76B247CEE7900CD9038 /* PBXTargetDependency */,
+			);
+			name = Aspose3DCloudTests;
+			productName = Aspose3DCloudTests;
+			productReference = 6B31D768247CEE7900CD9038 /* Aspose3DCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B31D756247CEE7800CD9038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AsposeCloud;
+				TargetAttributes = {
+					6B31D75E247CEE7800CD9038 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6B31D767247CEE7900CD9038 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B31D759247CEE7800CD9038 /* Build configuration list for PBXProject "Aspose3DCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B31D755247CEE7800CD9038;
+			productRefGroup = 6B31D760247CEE7800CD9038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B31D75E247CEE7800CD9038 /* Aspose3DCloud */,
+				6B31D767247CEE7900CD9038 /* Aspose3DCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B31D75D247CEE7800CD9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B31D766247CEE7900CD9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0B6E4247E41B4004581A0 /* extracttest.pdf in Resources */,
+				6BF0B6E1247E41B4004581A0 /* triangulate.3ds in Resources */,
+				6BF0B6E3247E41B4004581A0 /* export.pdf in Resources */,
+				6BF0B6E2247E41B4004581A0 /* parttest.fbx in Resources */,
+				6BF0B6DF247E41B4004581A0 /* oaptest.pdf in Resources */,
+				6BF0B6E7247E41B4004581A0 /* Aspose.pdf in Resources */,
+				6BF0B6E5247E41B4004581A0 /* threeD.pdf in Resources */,
+				6BF0B6E0247E41B4004581A0 /* oaptest.fbx in Resources */,
+				6BF0B6E6247E41B4004581A0 /* src.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B4E1FC0795E687B19E0F7C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aspose3DCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA85FBA913AAA5D15875A93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aspose3DCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE69BC2E8B7C23B861E6673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aspose3DCloudTests/Pods-Aspose3DCloudTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aspose3DCloudTests/Pods-Aspose3DCloudTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aspose3DCloudTests/Pods-Aspose3DCloudTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B31D75B247CEE7800CD9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0B6A7247E4141004581A0 /* APIHelper.swift in Sources */,
+				6BF0B6CC247E4141004581A0 /* DracoSaveOption.swift in Sources */,
+				6BF0B6CD247E4141004581A0 /* ObjSaveOption.swift in Sources */,
+				6BF0B6AE247E4141004581A0 /* PdfRenderMode.swift in Sources */,
+				6BF0B6CF247E4141004581A0 /* FileContentType.swift in Sources */,
+				6BF0B6B5247E4141004581A0 /* Entity.swift in Sources */,
+				6BF0B6B8247E4141004581A0 /* Discreet3DSSaveOption.swift in Sources */,
+				6BF0B6C2247E4141004581A0 /* GLTFSaveOption.swift in Sources */,
+				6BF0B6A6247E4141004581A0 /* Configuration.swift in Sources */,
+				6BF0B6BB247E4141004581A0 /* STLSaveOption.swift in Sources */,
+				6BF0B6B7247E4141004581A0 /* HTMLSaveOption.swift in Sources */,
+				6BF0B6AD247E4141004581A0 /* FilesList.swift in Sources */,
+				6BF0B6CE247E4141004581A0 /* PlySaveOption.swift in Sources */,
+				6BF0B6C7247E4141004581A0 /* SaveOptions.swift in Sources */,
+				6BF0B6D1247E4141004581A0 /* ColladaTransformStyle.swift in Sources */,
+				6BF0B6BA247E4141004581A0 /* SaveFormat.swift in Sources */,
+				6BF0B6BE247E4141004581A0 /* Box.swift in Sources */,
+				6BF0B6B9247E4141004581A0 /* ObjectExist.swift in Sources */,
+				6BF0B6A8247E4141004581A0 /* AlamofireImplementations.swift in Sources */,
+				6BF0B6A4247E4141004581A0 /* AuthAspose.swift in Sources */,
+				6BF0B6C1247E4141004581A0 /* PdfLightingScheme.swift in Sources */,
+				6BF0B6C8247E4141004581A0 /* PdfSaveOption.swift in Sources */,
+				6BF0B6A2247E4141004581A0 /* JSONEncodableEncoding.swift in Sources */,
+				6BF0B6C3247E4141004581A0 /* ErrorInfo.swift in Sources */,
+				6BF0B6A1247E4140004581A0 /* CodableHelper.swift in Sources */,
+				6BF0B6C9247E4141004581A0 /* AMFSaveOption.swift in Sources */,
+				6BF0B6BC247E4141004581A0 /* Sphere.swift in Sources */,
+				6BF0B6D4247E4141004581A0 /* Models.swift in Sources */,
+				6BF0B6C4247E4141004581A0 /* RvmSaveOption.swift in Sources */,
+				6BF0B6A3247E4141004581A0 /* JSONEncodingHelper.swift in Sources */,
+				6BF0B6B6247E4141004581A0 /* U3DSaveOption.swift in Sources */,
+				6BF0B6A5247E4141004581A0 /* HttpStatusCode.swift in Sources */,
+				6BF0B6D3247E4141004581A0 /* Extensions.swift in Sources */,
+				6BF0B6D2247E4141004581A0 /* DracoCompressionLevel.swift in Sources */,
+				6BF0B6BD247E4141004581A0 /* Torus.swift in Sources */,
+				6BF0B6C6247E4141004581A0 /* Plane.swift in Sources */,
+				6BF0B6B0247E4141004581A0 /* ColladaSaveOption.swift in Sources */,
+				6BF0B6B3247E4141004581A0 /* Cylinder.swift in Sources */,
+				6BF0B6D0247E4141004581A0 /* DiscUsage.swift in Sources */,
+				6BF0B6C0247E4141004581A0 /* AccessTokenResponse.swift in Sources */,
+				6BF0B6CB247E4141004581A0 /* Vector3.swift in Sources */,
+				6BF0B6AA247E4141004581A0 /* APIs.swift in Sources */,
+				6BF0B6BF247E4141004581A0 /* Transform.swift in Sources */,
+				6BF0B6AF247E4141004581A0 /* FilesUploadResult.swift in Sources */,
+				6BF0B6C5247E4141004581A0 /* ErrorDetails.swift in Sources */,
+				6BF0B6A9247E4141004581A0 /* ThreeDCloudAPI.swift in Sources */,
+				6BF0B6AB247E4141004581A0 /* StorageFile.swift in Sources */,
+				6BF0B6AC247E4141004581A0 /* StorageExist.swift in Sources */,
+				6BF0B6B2247E4141004581A0 /* FBXSaveOption.swift in Sources */,
+				6BF0B6B4247E4141004581A0 /* FileVersions.swift in Sources */,
+				6BF0B6B1247E4141004581A0 /* FileVersion.swift in Sources */,
+				6BF0B6CA247E4141004581A0 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B31D764247CEE7900CD9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0B6F1247E4298004581A0 /* StorageApiTests.swift in Sources */,
+				6BF0B6F0247E4298004581A0 /* FolderApiTests.swift in Sources */,
+				6BF0B6EF247E4298004581A0 /* OAuthApiTests.swift in Sources */,
+				6BF0B6EE247E4298004581A0 /* ThreeDCloudAPITests.swift in Sources */,
+				6BF0B6ED247E4298004581A0 /* FileApiTests.swift in Sources */,
+				6B31D76E247CEE7900CD9038 /* Aspose3DCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B31D76B247CEE7900CD9038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B31D75E247CEE7800CD9038 /* Aspose3DCloud */;
+			targetProxy = 6B31D76A247CEE7900CD9038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B31D771247CEE7900CD9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B31D772247CEE7900CD9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B31D774247CEE7900CD9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2418AA089BB4A9D407625AC /* Pods-Aspose3DCloud.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Aspose3DCloud/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsposeCloud.Aspose3DCloud;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B31D775247CEE7900CD9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F8C0121C5BC285EC4A3E5C /* Pods-Aspose3DCloud.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Aspose3DCloud/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsposeCloud.Aspose3DCloud;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B31D777247CEE7900CD9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD872D01E6C5EF4D86C7478 /* Pods-Aspose3DCloudTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aspose3DCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsposeCloud.Aspose3DCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B31D778247CEE7900CD9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE100167902227E9E5EF5FB8 /* Pods-Aspose3DCloudTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aspose3DCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AsposeCloud.Aspose3DCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B31D759247CEE7800CD9038 /* Build configuration list for PBXProject "Aspose3DCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31D771247CEE7900CD9038 /* Debug */,
+				6B31D772247CEE7900CD9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B31D773247CEE7900CD9038 /* Build configuration list for PBXNativeTarget "Aspose3DCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31D774247CEE7900CD9038 /* Debug */,
+				6B31D775247CEE7900CD9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B31D776247CEE7900CD9038 /* Build configuration list for PBXNativeTarget "Aspose3DCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B31D777247CEE7900CD9038 /* Debug */,
+				6B31D778247CEE7900CD9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B31D756247CEE7800CD9038 /* Project object */;
+}
