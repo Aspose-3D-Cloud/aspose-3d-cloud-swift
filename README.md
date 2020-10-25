@@ -1,48 +1,39 @@
-[Aspose.3D Cloud SDK for Swift](https://products.aspose.cloud/3d/swift) empowers your Swift applications to connect with 3D document formats. The APIs let engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.cloud/display/3dcloud/Supported+Document+Formats) without any 3D modeling and rendering software installed on the machine..
+![](https://img.shields.io/badge/api-v3.0-lightgrey) [![GitHub license](https://img.shields.io/github/license/aspose-3d-cloud/aspose-3d-cloud-Swift)](https://github.com/aspose-3d-cloud/aspose-3d-cloud-swift/blob/master/LICENSE) ![GitHub last commit](https://img.shields.io/github/last-commit/Aspose-3D-Cloud/aspose-3d-cloud-swift) ![Cocoapods](https://img.shields.io/cocoapods/v/Aspose3DCloud) ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Aspose3DCloud)
 
-## 3D Features
+# Swift SDK for 3D File Formats
 
-- Create 3D entities (Box, Sphere, Plane, Torus, Cylinder).
+[Aspose.3D Cloud SDK for Swift](https://products.aspose.cloud/3d/swift) empowers your PHP applications to connect with 3D document formats. The APIs let engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.cloud/3d/supported-document-formats/) in the Cloud. All without any 3D modeling and rendering software installed on the machine.
+
+## Process 3D Objects & Files in the Cloud
+
+- [Create 3D entities](https://docs.aspose.cloud/3d/create-a-new-entity-with-size/) - Box, Sphere, Plane, Torus, Cylinder.
 - Perform processing of 3D models and attributes.
 - Perform transformation, translation, rotation & scaling of 3D objects.
-- Conversion of 3D files to another format.
+- [Convert 3D files](https://docs.aspose.cloud/3d/converting-between-formats-using-aspose-3d-cloud/) to other format.
 - Convert whole of the 3D file or convert a specific part only.
-- Extract 3D scenes and export to various formats.
+- [Extract 3D scenes](https://docs.aspose.cloud/3d/extract-and-save-a-scene-in-a-different-format/) and export to various formats.
 - Perform parametric modeling, 3D modeling & data processing.
 - Create cloud-based folder structure & perform cloud-based conversion of 3D files.
-- Extract raw data or 3D content from a password-protected 3D PDF file.
+- [Extract 3D raw data from PDF](https://docs.aspose.cloud/3d/extract-raw-data-from-a-pdf-file/). Password-protected 3D PDF files are supported as well.
 - Supports working with triangulate meshes, triangulate whole or part of the 3D scene.
-- Address nodes by object addressing path or remove nodes with attached light or camera.
-- Remove 3D objects from a scene.
+- [Remove 3D objects from a scene](https://docs.aspose.cloud/3d/delete-nodes-from-a-scene/).
 
-## Enhancements in Version 20.5.1
-
-- Support convert more file formats(HTML/VRML...).
-- Triangulate part of the scene(Specified by OAP) and save the scene to different file 
 
 ## Read & Write 3D Formats
 
-FBX, STL, OBJ, 3DS, U3D, DAE, GLTF, DRC, RVM, PDF, AMF, PLY
+**Additive Manufacturing Format** AMF, **3D Studio** 3DS, **AVEVA** RVM, **Google Draco** DRC, **Collada** DAE, **AutoCAD** DXF, **Autodesk** FBX, **Wavefront** OBJ, **3D** PDF, **Polygon File Format** PLY, **Standard Triangle Language** STL, **Universal3D** U3D, **GL Transmission Format** GLTF
 
-## Read 3D Formats
+## Read-Only Formats
 
-X, JT, DXF, 3MF, ASE, VRML 
+**Siemens** JT, **DirectX** X, **3D Manufacturing Format** 3MF, **3D Studio Max** ASE
 
-## Write 3D Formats
+## Write 3D Formats As
 
 HTML
 
-## Getting Started with Aspose.3D Cloud SDK for Swift
+## Get Started with Aspose.3D Cloud SDK for Swift
 
-You do not need to install anything to get started with Aspose.3D Cloud SDK for Swift. All you need to do is create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
-
-Please check the [GitHub Repository](https://github.com/aspose-3d-cloud/aspose-3d-cloud-swift) for other common usage scenarios.
-
-## Getting Started
-
-Please, add the following cocoapods to your project.
-
-You want to add pod `'Aspose3DCloud', '~> 20.5.1'` similar to the following to your Podfile:
+Register an account at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) to get you application information. Next, add the POD to your project as follows:
 
 ```console
 target 'MyApp' do
@@ -50,14 +41,14 @@ target 'MyApp' do
 end
 ```
 
-Then run a pod install inside your terminal, or from CocoaPods.app.
+Alternatively, test run the POD as `pod try Aspose3DCloud`.
 
-Alternatively to give it a test run, run the command:
 
-`pod try Aspose3DCloud`
+## Aspose.3D Cloud SDKs in Popular Languages
 
-## Licensing
+| .NET | Java | PHP | Python | Ruby | Node.js | Swift | Perl | GO |
+|---|---|---|---|---|---|---|---|---|
+| [GitHub](https://github.com/aspose-3d-cloud/aspose-3d-cloud-dotnet) | [GitHub](https://github.com/aspose-3d-cloud/aspose-3d-cloud-java) | [GitHub](https://github.com/aspose-3d-cloud/aspose-3d-cloud-php) |[GitHub](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-python) | [GitHub](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-ruby)  | [GitHub](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-node) | [GitHub](https://github.com/aspose-3d-cloud/aspose-3d-cloud-swift) | [GitHub](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-perl) | [GitHub](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-go) |
+| [NuGet](https://www.nuget.org/packages/Aspose.3D-Cloud/) | [Maven](https://repository.aspose.cloud/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d-cloud) | [Composer](https://packagist.org/packages/aspose/3d-sdk-php) | [PIP](https://pypi.org/project/aspose3dcloud/) | [GEM](https://rubygems.org/gems/aspose_3d_cloud)  | [NPM](https://www.npmjs.com/package/aspose3dcloud) | [POD](https://cocoapods.org/pods/Aspose3DCloud) |  [CPAN](https://metacpan.org/release/AsposeThreeDCloud-ThreeDCloudApi) | [GO](https://pkg.go.dev/github.com/Aspose-3D-Cloud/aspose-3d-cloud-go/v20?tab=overview) |
 
-All Aspose.3D Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-3d-cloud/aspose-3d-cloud-swift/blob/master/LICENSE).
-
-[Product Page](https://products.aspose.cloud/3d/swift) | [Documentation](https://docs.aspose.cloud/display/3dcloud/Home) | [Demo](https://products.aspose.cloud/3d/family) | [API Reference](https://apireference.aspose.cloud/3d/) | [Examples](https://github.com/aspose-3d-cloud/aspose-3d-cloud-swift) | [Blog](https://blog.aspose.cloud/category/3d/) | [Free Support](https://forum.aspose.cloud/c/3d) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Home](https://www.aspose.cloud) | [Product Page](https://products.aspose.cloud/3d/swift) | [Documentation](https://docs.aspose.cloud/3d/) | [Live Demo](https://products.aspose.app/3d/family) | [API Reference](https://apireference.aspose.cloud/3d/) | [Code Samples](https://github.com/Aspose-3D-Cloud/aspose-3d-cloud-swift) | [Blog](https://blog.aspose.cloud/category/3d/) | [Free Support](https://forum.aspose.cloud/c/3d) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
