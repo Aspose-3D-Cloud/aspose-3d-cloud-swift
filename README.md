@@ -47,6 +47,24 @@ end
 
 Alternatively, test run the POD as `pod try Aspose3DCloud`.
 
+## FBX to PDF in Swift
+
+```swift
+	// Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
+
+	let threeDCloudApi  = ThreeDCloudApi(grantType: 'client_credentials', clientId: "MY_CLIENT_ID", clientSecret: "MY_CLIENT_SECRET");
+	
+	let name:String = "sample.fbx"
+	let newformat:String = "pdf"
+	let newfilename:String = "oaptest.pdf"
+	let folder:String? = "Swift"
+	let isOverwrite:Bool? = true
+	let storage:String? = STROAGR_NAME
+		
+	let uploadFile(name: name, folder: folder!)
+	let threeDCloudApi.postConvertByFormat(name: name, newformat: newformat, newfilename: newfilename, folder: folder, isOverwrite: isOverwrite, storage: storage)
+```
+
 
 ## Aspose.3D Cloud SDKs in Popular Languages
 
